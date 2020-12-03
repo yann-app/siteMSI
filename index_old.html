@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+        <title>Micro Services Informatique</title>
+    </head>
+
+    <body>
+        <div id="bloc_page">
+        <header>
+            
+			
+			
+          
+          <div id="titre">
+    <div class="element"><img src="images/Logo.jpg"/>
+			</div>
+			  <div class="element2"><strong>Micro Services Informatique  </strong></div>
+    
+</div>
+           </header>
+           
+           <nav>
+           <ul>
+  <li style="padding-left: 150px"><a href="index_old.html">Accueil</a></li>
+  <li><a href="#">Présentation</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Tarifs</a></li>
+  <li><a href="#">Nous contacter</a></li>
+</ul>
+		  
+			</nav>
+			  <section>
+        
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="images/pc.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/pc.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/pc3.jpg" style="width:100%">
+  
+</div>
+
+				  </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+              </section>
+
+            <section>
+	   <div class="article">
+           <p>
+               Je vous propose mes services pour le dépannage et la réparation de votre ordinateur portable ou fixe, ainsi que la vente de pièces détachées pour pc portable ou fixe.
+
+               -Recherche de votre pièce détachée au meilleur prix
+               -remplacement dalle d'écran et clavier pc portable
+               -blocages au démarrage
+               -réinstallation système d'exploitation
+               -optimisation
+               -conseils utilisation de votre ordinateur
+               -nettoyage programmes inutiles
+               -formatage
+               -virus
+               -installation et configuration logiciels
+           </p>
+       </div>
+            </section>
+       
+        <footer>
+          <p>Contact: 06.70.29.27.24</p>
+           
+       </footer> 
+		</div>
+    </body>
+</html>
